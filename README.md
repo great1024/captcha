@@ -1,5 +1,5 @@
 # captcha
-通过集成开源项目amazoncaptcha，实现的亚马逊验证码解析服务，部署较复杂，建议直接使用docker镜像运行。
+通过集成开源项目amazoncaptcha，实现的亚马逊验证码解析服务，建议直接使用docker镜像运行。
  docker run -it --network spider-network -p 8000:8000 -d --name="captcha" 15392680446/dy:captcha  
  /captcha/link 直接传入验证码图片链接进行解析 get请求，有反爬风险
  
